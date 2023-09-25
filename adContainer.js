@@ -53,7 +53,7 @@ adContainers.forEach((adContainer) => {
     }, 1000);
 
     const adCardText = document.createElement("p")
-    adCardText.className="loremipsum"
+    adCardText.className="loremipsum-2"
     adCardText.innerHTML = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus perspiciatis error culpa, atque quam natus dolor reiciendis, aliquam exercitationem corporis magni consectetur, voluptatem maxime sit saepe! Excepturi quo illo esse sit, adipisci necessitatibus!"
     adCardLink.appendChild(adCardText)
 

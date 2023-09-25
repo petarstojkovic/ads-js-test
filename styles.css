@@ -19,7 +19,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex: 1;
     flex-wrap: wrap;
 }
@@ -65,7 +65,7 @@ a{
 .betting-card,  .betting-card-ad{
     padding: 10px 0px 30px 0px;
 }
-.loremipsum{
+.loremipsum, .loremipsum-2{
     text-align: center;
     text-transform: capitalize;
     padding: 0px 10px 10px 10px;
@@ -126,5 +126,8 @@ a{
     }
     .sports{
         border: none;
+    }
+    .loremipsum-2{
+        display: none;
     }
 }
